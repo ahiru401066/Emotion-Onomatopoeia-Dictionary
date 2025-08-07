@@ -31,13 +31,14 @@ body {
     gap: 12px;
 }
 
+/* JS用 */
 .box {
     width: 100%;
     max-width: 360px;
     height: 360px;
 }
 
-.box h2 {
+.character {
     padding: 48px;
     font-size: 32px;
     color: #e6e6e6;
@@ -67,7 +68,6 @@ body {
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   justify-content: space-between;
   gap: 32px;
 }
@@ -77,4 +77,9 @@ body {
   max-width: 400px;
   background-color: #eee;
   padding: 40px;
+}
+
+.item h4 {
+  font-size: 20px;
+  margin-bottom: 4px;
 }
