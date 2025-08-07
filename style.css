@@ -1,3 +1,53 @@
-h1 {
-    color: aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Google Sans Code", monospace;
+}
+
+/* upper style  */
+#upper {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#upper h1 {
+    font-size: 32px;
+}
+
+#container {
+    max-width: calc(360px * 3 + 12px * 2);
+    margin: 32px auto 0px;
+
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.box {
+    width: 100%;
+    max-width: 360px;
+    height: 360px;
+}
+
+.box h2 {
+    padding: 48px;
+    font-size: 32px;
+    color: #e6e6e6;
+}
+
+.emoji {
+  font-size: 100px;
+  vertical-align: middle; /* テキストとの揃え調整 */
+}
+
+/* bottom style  */
+#bottom {
+    padding-bottom: 32px;
 }
