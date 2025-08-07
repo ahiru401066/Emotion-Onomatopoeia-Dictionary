@@ -1,13 +1,5 @@
 "use strict";
 
-class Word {
-    constructor (word, definition, img) {
-        this.word = word;
-        this.definition = definition;
-        this.img = img;
-    }
-}
-
 class EmotionObject {
     constructor (emotion, img, description, color, onomatopoeia) {
         this.emotion = emotion;
