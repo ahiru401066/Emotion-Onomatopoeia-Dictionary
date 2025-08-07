@@ -30,13 +30,14 @@ body {
     gap: 12px;
 }
 
+/* JS用 */
 .box {
     width: 100%;
     max-width: 360px;
     height: 360px;
 }
 
-.box h2 {
+.character {
     padding: 48px;
     font-size: 32px;
     color: #e6e6e6;
