@@ -1,3 +1,38 @@
-h1 {
-    color: aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#upper {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#upper h1 {
+    padding-bottom: 16px;
+}
+
+#container {
+    max-width: calc(375px * 3 + 10px * 2);
+    border: 1px solid black;
+    margin: 0 auto;
+
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.box {
+    width: 100%;
+    max-width: 360px;
+    height: 360px;
+    background-color: aquamarine;
+}
+
+#bottom {
+    padding-bottom: 32px;
 }
