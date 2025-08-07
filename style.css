@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Google Sans Code", monospace;
+}
+
+/* upper style  */
 #upper {
     background-color: #f5f5f5;
     text-align: center;
@@ -11,28 +16,38 @@
 }
 
 #upper h1 {
-    padding-bottom: 16px;
+    font-size: 32px;
 }
 
 #container {
-    max-width: calc(375px * 3 + 10px * 2);
-    border: 1px solid black;
-    margin: 0 auto;
+    max-width: calc(360px * 3 + 12px * 2);
+    margin: 32px auto 0px;
 
     /* flex */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 8px;
+    gap: 12px;
 }
 
 .box {
     width: 100%;
     max-width: 360px;
     height: 360px;
-    background-color: aquamarine;
 }
 
+.box h2 {
+    padding: 48px;
+    font-size: 32px;
+    color: #e6e6e6;
+}
+
+.emoji {
+  font-size: 100px;
+  vertical-align: middle; /* テキストとの揃え調整 */
+}
+
+/* bottom style  */
 #bottom {
     padding-bottom: 32px;
 }
